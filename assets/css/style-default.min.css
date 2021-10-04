@@ -197,6 +197,10 @@ input[type=button]:focus {
     padding: 13rem 0
 }
 
+.lgx-inner1 {
+    padding: 3rem 0
+}
+
 blockquote {
     overflow: hidden;
     color: #1b273d;
@@ -332,10 +336,10 @@ textarea.form-control {
 
 .lgx-heading {
     text-align: center;
-    margin-bottom: 6.8rem;
+    margin-bottom: -6.8rem;
     overflow: hidden;
     display: block;
-    margin-top: -1.6rem
+    padding-top: 3rem
 }
 
 .lgx-heading .heading {
@@ -482,7 +486,7 @@ button:hover:after {
 }
 
 .lgx-btn-red {
-    background: #ec398b
+    background: #d81313
 }
 
 .lgx-btn-yellow {
@@ -7107,7 +7111,7 @@ button:hover:after {
 
 .lgx-header .lgx-nav-right {
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 33px;
     margin-left: 2rem;
     display: flex
 }
@@ -7291,7 +7295,7 @@ button:hover:after {
 }
 
 .lgx-header .menu-onscroll {
-    background: rgba(27, 39, 61, .95);
+    background: #231162;
     position: fixed;
     top: 0;
     width: 100%;
@@ -7304,6 +7308,13 @@ button:hover:after {
     -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, .42), 0 3px 20px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
     -o-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, .42), 0 3px 20px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
     box-shadow: 0 10px 20px -12px rgba(0, 0, 0, .42), 0 3px 20px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2)
+}
+
+@media (max-width: 650px){
+    .lgx-header .menu-onscroll{
+        position: relative;
+    }
+
 }
 
 .lgx-header .menu-onscroll .lgx-nav-right .lgx-search a {
@@ -7459,7 +7470,7 @@ button:hover:after {
     }
 
     .lgx-header .lgx-navbar .lgx-logo {
-        margin-left: 10px
+        margin-left: 5rem
     }
 
     .lgx-slider-navbottom .owl-controls .owl-nav .owl-next,
@@ -7491,7 +7502,7 @@ button:hover:after {
     }
 
     .lgx-header-position {
-        background: #1b273d
+        background: #231162
     }
 
     .lgx-header-position-fixed {
@@ -7618,7 +7629,7 @@ button:hover:after {
 }
 
 .lgx-banner .lgx-inner {
-    padding: 27rem 0 20rem
+    padding: 19rem 0 8rem
 }
 
 .lgx-banner2 {
@@ -7678,7 +7689,8 @@ button:hover:after {
 }
 
 .lgx-banner12 {
-    background: url(../img/speakers-bg-black.jpg) top center no-repeat;
+    /*background: url(../img/speakers-bg-black.jpg) top center no-repeat;*/
+    background-color: #231162;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -11682,7 +11694,7 @@ button:hover:after {
 }
 
 .lgx-countdowns4 .lgx-inner {
-    background: #1b273d;
+    background: #231162;
     padding: 6.8rem 0
 }
 
