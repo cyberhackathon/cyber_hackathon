@@ -24,7 +24,7 @@ p {
 }
 
 body {
-background: url(../img/bg.jpg) no-repeat fixed;
+background: url(../img/bg1.png) no-repeat fixed;
 }
 
 p {
@@ -6929,7 +6929,7 @@ button:hover:after {
 }
 
 .lgx-header {
-    background: #f1f1f1
+    background: transparent
 }
 
 .lgx-header .lgx-inner {
@@ -7739,7 +7739,7 @@ button:hover:after {
 }
 
 .lgx-banner-parallax {
-    background: url(../img/parallex-bg.jpg) top center no-repeat;
+    background: url(../img/parallex-bg1.png) top center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -9114,7 +9114,7 @@ button:hover:after {
 }
 
 .lgx-about2 {
-    background: url(../img/about-bg.jpg) bottom no-repeat;
+    background: url(../img/about-bg1.png) bottom no-repeat;
     -webkit-background-size: auto auto, cover;
     -o-background-size: auto auto, cover;
     -moz-background-size: auto auto, cover;
@@ -9386,7 +9386,7 @@ button:hover:after {
 }
 
 .lgx-speakers-christmas {
-    background: url(../img/speakers-christmas-bg.jpg) center center no-repeat fixed;
+    background: url(../img/speakers-christmas-bg.png) center center no-repeat fixed;
     -webkit-background-size: auto auto, cover;
     -o-background-size: auto auto, cover;
     -moz-background-size: auto auto, cover;
