@@ -20,11 +20,11 @@ p {
     margin: 0;
     color: #fff;
     line-height: 2.6rem
-    background-color: #231162;
+    
 }
 
 body {
-    background: #f1f1f1
+background: url(../img/bg.jpg) no-repeat fixed;
 }
 
 p {
@@ -200,7 +200,7 @@ input[type=button]:focus {
 
 .lgx-inner1 {
     padding: 3rem 0;
-    background-color: #231162;
+    background-color: transparent;
 }
 
 blockquote {
@@ -7296,7 +7296,7 @@ button:hover:after {
 }
 
 .lgx-header .menu-onscroll {
-    background: #231162;
+    background: transparent;
     position: fixed;
     top: 0;
     width: 100%;
@@ -7503,7 +7503,7 @@ button:hover:after {
     }
 
     .lgx-header-position {
-        background: #231162
+        background: transparent;
     }
 
     .lgx-header-position-fixed {
@@ -7691,7 +7691,7 @@ button:hover:after {
 
 .lgx-banner12 {
     /*background: url(../img/speakers-bg-black.jpg) top center no-repeat;*/
-    background-color: #231162;
+    background-color: transparent;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -9110,7 +9110,7 @@ button:hover:after {
 }
 
 .lgx-about {
-    background: #231162;
+    background: transparent;
 }
 
 .lgx-about2 {
@@ -9138,7 +9138,8 @@ button:hover:after {
 }
 
 .lgx-about-img {
-    margin-right: 5%
+    margin-right: 5%;
+    padding-top: 60px;
 }
 
 .lgx-about-threeimg {
@@ -9358,7 +9359,6 @@ button:hover:after {
 }
 
 .lgx-speakers2 {
-    background: url(../img/speakers-bg-black.jpg) bottom left no-repeat fixed;
     -webkit-background-size: auto auto, cover;
     -o-background-size: auto auto, cover;
     -moz-background-size: auto auto, cover;
@@ -9378,7 +9378,7 @@ button:hover:after {
 }
 
 .lgx-speakers4 {
-    background: url(../img/speakers-bg-brand.jpg) bottom left no-repeat fixed;
+    /*background: url(../img/speakers-bg-brand.jpg) bottom left no-repeat fixed;*/
     -webkit-background-size: auto auto, cover;
     -o-background-size: auto auto, cover;
     -moz-background-size: auto auto, cover;
@@ -10412,7 +10412,7 @@ button:hover:after {
 }
 
 .lgx-sponsors {
-    background: url(../img/sponsor-bg.jpg) bottom center no-repeat;
+    /*background: url(../img/sponsor-bg.jpg) bottom center no-repeat;*/
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -10420,7 +10420,7 @@ button:hover:after {
 }
 
 .lgx-sponsors .lgx-inner {
-    background: #231162
+    background: transparent;
 }
 
 .lgx-sponsors-black .lgx-inner {
@@ -11695,7 +11695,7 @@ button:hover:after {
 }
 
 .lgx-countdowns4 .lgx-inner {
-    background: #231162;
+    background: transparent;
     padding: 6.8rem 0
 }
 
@@ -12993,7 +12993,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-footer {
-    background: url(../img/footer-bg.jpg) bottom center no-repeat;
+   /* background: url(../img/footer-bg.jpg) bottom center no-repeat;*/
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -13003,7 +13003,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-footer .lgx-inner-footer {
-    background: #231162
+    background: transparent;
 }
 
 .lgx-footer-music {
@@ -13727,7 +13727,7 @@ blockquote.lgx-testi-single:before {
     }
 
     .lgx-about {
-        background: #231162
+        background: transparent;
     }
 
     .sponsors-area .single {
