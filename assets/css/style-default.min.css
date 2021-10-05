@@ -45,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1b273d
+    color: #fff
 }
 
 .h1,
@@ -10420,7 +10420,7 @@ button:hover:after {
 }
 
 .lgx-sponsors .lgx-inner {
-    background: rgba(255, 255, 255, .88)
+    background: #231162
 }
 
 .lgx-sponsors-black .lgx-inner {
@@ -13003,7 +13003,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-footer .lgx-inner-footer {
-    background: rgba(85, 75, 185, .95)
+    background: #231162
 }
 
 .lgx-footer-music {
