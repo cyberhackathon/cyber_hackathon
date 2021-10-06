@@ -7527,7 +7527,7 @@ button:hover:after {
 
     .lgx-header .lgx-navbar .lgx-logo a img,
     .lgx-header .menu-onscroll .lgx-navbar .lgx-logo a img {
-        max-width: 100px
+        max-width: 150px
     }
 
     .navbar-default .navbar-toggle {
