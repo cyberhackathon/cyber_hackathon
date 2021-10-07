@@ -151,6 +151,16 @@ img.iii{
     }
 }
 
+img.iit{
+    max-width: 100%
+
+}
+@media (max-width: 450px){
+    img.iit{
+        max-width: 100%;
+    }
+}
+
 table td,
 table th {
     border: 1px solid #ddd;
