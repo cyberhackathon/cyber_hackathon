@@ -12,19 +12,26 @@ html {
     font-size: 62.5%
 }
 
+@media (max-width: 450px){
+    body{
+        background: url(../img/bg3.png) no-repeat   ;
+
+    }
+}
+
 body,
 p {
     font-family: Poppins, sans-serif;
     font-size: 2rem;
     padding: 0;
     margin: 0;
-    color: #fff;
+    color: #194785;
     line-height: 2.6rem
     
 }
 
 body {
-background: url(../img/bg1.png) no-repeat fixed;
+background: url(../img/ww.png) no-repeat fixed;
 }
 
 p {
@@ -45,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #fff
+    color: #000
 }
 
 .h1,
@@ -348,7 +355,7 @@ textarea.form-control {
     font-family: Poppins, sans-serif;
     font-size: 4.2rem;
     line-height: 6.300000000000001rem;
-    color: #fff;
+    color: #000;
     font-weight: 900;
     margin: 0 0 1rem;
     text-transform: uppercase
@@ -7690,7 +7697,7 @@ button:hover:after {
 }
 
 .lgx-banner12 {
-    /*background: url(../img/speakers-bg-black.jpg) top center no-repeat;*/
+    background: url(../img/bg1.png) top center no-repeat;
     background-color: transparent;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -10420,7 +10427,7 @@ button:hover:after {
 }
 
 .lgx-sponsors .lgx-inner {
-    background: transparent;
+    background: #fff;
 }
 
 .lgx-sponsors-black .lgx-inner {
@@ -11775,7 +11782,7 @@ button:hover:after {
 
 #circular-countdown .time_circles>div>h4,
 #circular-countdown .time_circles>div>span {
-    color: #fff
+    color: #000
 }
 
 #circular-countdown-whitebg .time_circles>div>h4,
@@ -13101,7 +13108,7 @@ blockquote.lgx-testi-single:before {
 .lgx-footer-single {
     flex: 1;
     text-align: left;
-    color: rgba(255, 255, 255, .5);
+    color: #000;
     display: block;
     margin-left: 15px;
     margin-right: 15px
