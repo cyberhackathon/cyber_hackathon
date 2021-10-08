@@ -92,11 +92,18 @@ p {
 }
 
 body {
-background: url(../img/ww.png) no-repeat fixed;
+background: url(../img/bg1.png) no-repeat fixed;
 }
 
 p {
     font-weight: 400
+}
+
+@media (max-width: 450){
+    span.logos {
+    padding-right: 70px;
+
+}
 }
 
 .h3,
@@ -293,7 +300,7 @@ input[type=button]:focus {
 
 .lgx-inner1 {
     padding: 3rem 0;
-    background-color: transparent;
+    background-color: #fff;
 }
 
 blockquote {
@@ -7783,7 +7790,7 @@ button:hover:after {
 }
 
 .lgx-banner12 {
-    background: url(../img/bg1.png) top center no-repeat;
+    /*background: url(../img/bg1.png) top center no-repeat;*/
     background-color: transparent;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -9203,7 +9210,7 @@ button:hover:after {
 }
 
 .lgx-about {
-    background: transparent;
+    background: #fff;
 }
 
 .lgx-about2 {
@@ -11787,7 +11794,7 @@ button:hover:after {
 }
 
 .lgx-countdowns4 .lgx-inner {
-    background: transparent;
+    background: #fff;
     padding: 6.8rem 0
 }
 
@@ -13819,7 +13826,7 @@ blockquote.lgx-testi-single:before {
     }
 
     .lgx-about {
-        background: transparent;
+        background: #fff;
     }
 
     .sponsors-area .single {

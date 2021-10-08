@@ -7,3 +7,12 @@
 .aaa {
     padding-bottom: 10rem;
 }
+span.logos {
+    padding-top: 70px;
+}
+
+@media (max-width: 450){
+    span.logos {
+    padding-right: 70px;
+}
+}
