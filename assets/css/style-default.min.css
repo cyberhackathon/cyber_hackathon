@@ -7,6 +7,25 @@ a:hover {
     text-decoration: none;
     outline: 0
 }
+span.logos {
+    padding-top: 60px;
+    margin-left: 133rem;
+
+}
+
+@media (max-width: 425px){
+    span.logos {
+        padding-right: 135px;
+        padding-bottom: 10px;
+        padding-top: 15rem;
+        margin-left: -6rem;
+}
+.lll{
+    padding-bottom: 30rem;
+
+}
+}
+
 
 html {
     font-size: 62.5%
@@ -47,7 +66,7 @@ html {
 }
 
 .overlay a {
-  padding: 8px;
+  padding: 10px;
   text-decoration: none;
   font-size: 36px;
   color: #818181;
@@ -212,6 +231,11 @@ img {
 img.speak{
     max-width: 100%;
     max-height: 300px;
+}
+
+div.speaks{
+    max-width: 100%;
+    align-items: center;
 }
 
 img.iii{
@@ -7571,7 +7595,7 @@ button:hover:after {
     }
 
     .lgx-header .lgx-navbar .lgx-logo {
-        margin-left: 5rem
+        margin-left: 1rem
     }
 
     .lgx-slider-navbottom .owl-controls .owl-nav .owl-next,
@@ -7627,7 +7651,7 @@ button:hover:after {
 
     .lgx-header .lgx-navbar .lgx-logo a img,
     .lgx-header .menu-onscroll .lgx-navbar .lgx-logo a img {
-        max-width: 300px
+        max-width: 350px
     }
 
     .navbar-default .navbar-toggle {
