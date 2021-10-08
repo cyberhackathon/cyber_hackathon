@@ -38,6 +38,7 @@
     <!-- OWL CAROUSEL CSS -->
     <link rel="stylesheet" href="assets/libs/owlcarousel/owl.carousel.min.css" media="all" />
     <link rel="stylesheet" href="assets/libs/owlcarousel/owl.theme.default.min.css" media="all" />
+    <link rel="stylesheet" href="style.css"/>
 
     <!-- GOOGLE FONT -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cRaleway:300,400,400i,500,600,700,900"/>
@@ -63,63 +64,34 @@
 
 <!--HEADER-->
 <header>
-    <div  class="lgx-header ">
-        <div class="lgx-header-position lgx-header-position-white lgx-header-position-fixed "> <!--lgx-header-position-fixed lgx-header-position-white lgx-header-fixed-container lgx-header-fixed-container-gap lgx-header-position-white-->
-            <div class="lgx-container-fluid"> <!--lgx-container-fluid-->
-                <nav class="navbar navbar-default lgx-navbar">
-                    <div class="navbar-header">
-  
-                        
-                        <div class="lgx-logo" style="float: left;">
-                            <a href="index.html" class="lgx-scroll">
-                                <img src="assets/img/alllogo.png"  style="height: 130px;width: 400px;     margin-top: 10px;" alt="Logo"/>
-                            </a>
-
-                            <span class="logos" style="font-size:30px;cursor:pointer; float:right; color:#fff" onclick="openNav()">&#9776; Menu</span>
-                        
-                        </div>
-                        
-                        
-                        
-                    
-
-                    <div id="myNav" class="overlay">
-                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                      <div class="overlay-content">
-                        <a href="#about" class="lgx-scroll">About</a>
-                        <a class="lgx-scroll" href="#lgx-speakers">Speakers</a>
-                        <a href="#lgx-jury" class="lgx-scroll">Jury</a>
-                        <a href="#lgx-timeline" class="lgx-scroll">Timeline</a>
-                        <a href="#schedules" class="lgx-scroll">Event Schedule</a>
-                        <a href="#statement" class="lgx-scroll">Problem Statements</a>
-                        <a href="/cyber_hackathon/rules.pdf" target="_blank" class="lgx-scroll">Contest Rules</a>
-                        <a class="lgx-scroll" href="#lgx-sponsors">Sponsors</a>
-                        <a class="lgx-scroll" href="#contact">Contact</a>
-                        
-                      </div>
-
-                    </div>
-                    
-                    
-                     
-                    </div><!--/.nav-collapse -->
-                </nav>
-            </div>
-            <!-- //.CONTAINER -->
+    <nav>
+        <div class="logo">
+            <img  src="../cyberhackathon/assets/img/abc.png"  alt="Logo Image">
         </div>
-    </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links" >
+                        <li><a style="color:#ffffff;" href="#about" class="lgx-scroll">About</a></li>
+                        <li><a style="color:#ffffff;" class="lgx-scroll" href="#lgx-speakers">Speakers</a></li>
+                        <li><a style="color:#ffffff;" href="#lgx-jury" class="lgx-scroll">Jury</a></li>
+                        <li><a style="color:#ffffff;" href="#lgx-timeline" class="lgx-scroll">Timeline</a></li>
+                        <li><a style="color:#ffffff;" href="#schedules" class="lgx-scroll">Event Schedule</a></li>
+                        <li><a style="color:#ffffff;" href="#statement" class="lgx-scroll">Problem Statements</a></li>
+                        <li><a style="color:#ffffff;" href="/cyber_hackathon/rules.pdf" target="_blank" class="lgx-scroll">Contest Rules</a></li>
+                        <li><a style="color:#ffffff;" class="lgx-scroll" href="#lgx-sponsors">Sponsors</a></li>
+                        <li><a style="color:#ffffff;" class="lgx-scroll" href="#contact">Contact</a></li>
+            
+            
+        </ul>
+    </nav>
+    <script src="nav.js"></script>
 </header>
 <!--HEADER END-->
 
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
 
 
 <!--BANNER-->
@@ -432,7 +404,7 @@ A campus full of life and energy, UPES Dehradun has been contributing to the nat
 
           <div class="lgx-heading">
             <div class="aaa">
-                <h2 class="heading" >EVENT SCHEDULE (FINALE)</h2>
+                <h2 class="heading" >EVENT SCHEDULE (FINALE)</h2><br><br>
             </div>
           </div>
         </div>
@@ -1089,19 +1061,19 @@ This problem is open ended, and all participants have the liberty to code in the
             <div class="container">
                 <div class="lgx-footer-area">
                      <div class="lgx-footer-single">
-                        <a class="logo" href="https://www.upescsi.in" target="_blank"><img src="assets/img/police.png" alt="Logo"></a>
+                        <a class="logo" href="https://www.upescsi.in" target="_blank"><img class="fterslogo"  src="assets/img/police1.png" alt="Logo"></a>
                     </div>
                      <div class="lgx-footer-single">
-                        <a class="logo" href="https://admissions.upes.ac.in/courses/undergraduate.aspx?utm_source=bing&utm_medium=cpc&utm_campaign=UPES_PL_Brand_S_2021&msclkid=c47d0a6ab41c1930512e55bfb1ca2dc9" target="_blank"><img src="assets/img/UPES.jpg" alt="Logo"></a>
+                        <a class="logo" href="https://admissions.upes.ac.in/courses/undergraduate.aspx?utm_source=bing&utm_medium=cpc&utm_campaign=UPES_PL_Brand_S_2021&msclkid=c47d0a6ab41c1930512e55bfb1ca2dc9" target="_blank"><img class="foterslogo" src="assets/img/upeslogoglow.png" alt="Logo"></a>
                     </div> 
                     <div class="lgx-footer-single">
-                        <a class="logo" href="https://www.upescsi.in" target="_blank"><img src="assets/img/logo2.png" alt="Logo"></a>
+                        <a class="logo" href="https://www.upescsi.in" target="_blank"><img class="footerslogo"  src="assets/img/logo2.png" alt="Logo"></a>
                     </div>
                      <!--//footer-area-->
                     <div style="right: 25px">
                     <div class="lgx-footer-single">
-                        <h3 class="footer-title">Social Connection</h3>
-                        Contact Us<br> <a style="color: white;" href="mailto:devbhoomihackathon@gmail.com">devbhoomihackathon@gmail.com</a> <br>
+                        <h2 class="footer-title">Contact Us</h2>
+                         <a style="color: white;" href="mailto:devbhoomihackathon@gmail.com">devbhoomihackathon@gmail.com</a> <br>
                         <a style="color: white;" href="mailto:cyberhackathon@ddn.upes.ac.in">cyberhackathon@ddn.upes.ac.in</a><br><br>
                         <p class="text">
                         </p>
