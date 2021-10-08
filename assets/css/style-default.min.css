@@ -7462,7 +7462,7 @@ button:hover:after {
     -moz-transition: all .2s ease-in-out 0s;
     -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
-    max-width: 145px
+    max-width: 400px
 }
 
 .lgx-header-position-fixed.menu-onscroll,
@@ -7620,7 +7620,7 @@ button:hover:after {
 
     .lgx-header .lgx-navbar .lgx-logo a img,
     .lgx-header .menu-onscroll .lgx-navbar .lgx-logo a img {
-        max-width: 100px
+        max-width: 300px
     }
 
     .navbar-default .navbar-toggle {
