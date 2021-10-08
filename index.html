@@ -63,7 +63,7 @@
 
 <!--HEADER-->
 <header>
-    <div id="lgx-header" class="lgx-header">
+    <div  class="lgx-header ">
         <div class="lgx-header-position lgx-header-position-white lgx-header-position-fixed "> <!--lgx-header-position-fixed lgx-header-position-white lgx-header-fixed-container lgx-header-fixed-container-gap lgx-header-position-white-->
             <div class="lgx-container-fluid"> <!--lgx-container-fluid-->
                 <nav class="navbar navbar-default lgx-navbar">
@@ -81,79 +81,22 @@
                             </a>
                         </div>
                     </div>
-                     <div class="cd-index cd-main-content">
-
-            
-                    <div id="navbar" class="navbar-collapse collapse">
-                      
-                        <ul class="nav navbar-nav lgx-nav navbar-right">
-                            <li>
-                                <a href="#about" class="lgx-scroll">about</a>
-
-                            <li>
-                               
-                                <ul class="dropdown-menu multi-level">
-                                    <li><a href="about.html">About</a></li>
-                                   
-                                    <li class="dropdown-submenu">
-                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Speakers </a>
-
-                                    </li>
-
-                                    
-                                  
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li class="dropdown-submenu">
-                                        
-                                        <ul class="dropdown-menu">
-                                            
-                                           
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu">
-                                                <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown Two<span class="caret"></span></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="#">Dropdown Three</a></li>
-                                                    <li><a href="#">Dropdown Three</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Dropdown Two</a></li>
-                                            <li><a href="#">Dropdown Two</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a class="lgx-scroll" href="#lgx-speakers">Speakers</a></li>
-                            <li>
-                                <a href="#lgx-jury" class="lgx-scroll">Jury</a>
-
-                            <li>
-                            <li>
-                                <a href="#lgx-timeline" class="lgx-scroll">Timeline</a>
-
-                            <li>
-                            <li>
-                                <a href="#schedules" class="lgx-scroll">Event Schedule</a>
-
-                            <li>
-                            <li>
-                                <a href="#statement" class="lgx-scroll">Problem Statements</a>
-
-                            <li>
-                            <li>
-                                <a href="/cyber_hackathon/rules.pdf" target="_blank" class="lgx-scroll">Contest Rules</a>
-
-                            <li>
-                            
-                            
-                            <li><a class="lgx-scroll" href="#lgx-sponsors">Sponsors</a></li>
+                    <div id="myNav" class="overlay">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      <div class="overlay-content">
+                        <a href="#about" class="lgx-scroll">about</a>
+                        <a class="lgx-scroll" href="#lgx-speakers">Speakers</a>
+                        <a href="#lgx-jury" class="lgx-scroll">Jury</a>
+                        <a href="#lgx-timeline" class="lgx-scroll">Timeline</a>
+                        <a href="#schedules" class="lgx-scroll">Event Schedule</a>
+                        <a href="#statement" class="lgx-scroll">Problem Statements</a>
+                        <a href="/cyber_hackathon/rules.pdf" target="_blank" class="lgx-scroll">Contest Rules</a>
+                        <a class="lgx-scroll" href="#lgx-sponsors">Sponsors</a>
+                        <a class="lgx-scroll" href="#contact">Contact</a>
                         
-                            <li><a class="lgx-scroll" href="#contact">Contact</a></li>
-                        </ul>
+                      </div>
+                    </div>
+                     
                     </div><!--/.nav-collapse -->
                 </nav>
             </div>
@@ -162,6 +105,16 @@
     </div>
 </header>
 <!--HEADER END-->
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 
 
 <!--BANNER-->
@@ -345,7 +298,7 @@ A campus full of life and energy, UPES Dehradun has been contributing to the nat
                     <div class="col-xs-12">
                         <div class="lgx-heading">
                             <h2 class="heading">Keynote Speakers</h2>
-                            <h3 class="subheading">Speakers!</h3>
+                            
                         </div>
                     </div>
                 </div>
