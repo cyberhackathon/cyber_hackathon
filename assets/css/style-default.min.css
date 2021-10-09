@@ -230,12 +230,15 @@ img {
 
 img.speak{
     max-width: 100%;
-    max-height: 300px;
+    max-height: 306px;
+    padding: 10px;
 }
 
 div.speaks{
-    max-width: 100%;
+    max-width: 33.333333%;
     align-items: center;
+    display: inline;
+    padding: 105px;
 }
 
 img.iii{
@@ -262,6 +265,9 @@ table td,
 table th {
     border: 1px solid #da251c;
     padding: .5rem 1px
+}
+td{
+    text-align: left;
 }
 
 .lgx-table thead tr {
