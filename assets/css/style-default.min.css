@@ -237,7 +237,7 @@ img.speak{
 div.speaks{
     max-width: 33.333333%;
     align-items: center;
-    display: inline;
+    display: contents;
     padding: 105px;
 }
 
