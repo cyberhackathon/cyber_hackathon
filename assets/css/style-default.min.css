@@ -7917,7 +7917,7 @@ button:hover:after {
 }
 
 .lgx-banner-info .title {
-    margin: 0 0 2.6rem;
+    margin: 0 0 3.6rem;
     font-family: Oswald, sans-serif;
     font-size: 11rem;
     line-height: 16.5rem;
@@ -8158,7 +8158,7 @@ button:hover:after {
 }
 
 .lgx-banner-info-center {
-    text-align: center
+    text-align: left;
 }
 
 .lgx-banner-info-center .subtitle {
