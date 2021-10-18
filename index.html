@@ -1057,7 +1057,21 @@ You shall not disclose or release to the third party any information you receive
         </div><!-- //.INNER -->
     </div>
 </section>   
+<script>
+    const details = document.querySelectorAll("details");
 
+// Add the onclick listeners.
+details.forEach((targetDetail) => {
+  targetDetail.addEventListener("click", () => {
+    // Close all the details that are not targetDetail.
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
+</script>
 
 <!--Problem Statement Ends Here-->
 
