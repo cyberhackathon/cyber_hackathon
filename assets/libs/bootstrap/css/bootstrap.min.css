@@ -30,3 +30,6 @@
     margin-left:auto
 }
 
+summary:hover{
+    cursor: pointer;
+}
