@@ -40,6 +40,13 @@ nav{
     margin: 0 0.7vw;
 }
 
+@media (max-width: 450px){
+marquee{
+    margin-top: 70px;
+
+}
+}
+
 .nav-links li {
     position: relative;
 }
