@@ -728,7 +728,7 @@ button:hover:after {
 
 @media (max-width:767px) {
     .lgx-btn {
-        font-size: 12px;
+        font-size: 14px;
         padding: .6rem 2rem;
         letter-spacing: 0
     }
